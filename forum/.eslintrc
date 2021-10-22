@@ -1,0 +1,19 @@
+{
+  "root": true,
+  "extends": "plugin:vue/base",
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 10,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "no-debugger":"off"
+  }
+}
